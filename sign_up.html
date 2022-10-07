@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign Up - Cawayan</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+
+        .toggle-button {
+          position:absolute;
+          top: .75rem;
+          right: -37rem;
+          display: none;
+          flex-direction: column;
+          justify-content: space-between;
+          width: 30px;
+          height: 21px;
+
+        }
+
+        .toggle-button .bar {
+          height: 3px;
+          width: 100%;
+          background-color: white;
+          border-radius: 10px;
+        }
+
+        @media screen and (max-width: 782px) {
+
+        .navbar-links {
+          display: none !important;
+          width: 100%;
+
+          
+          
+        }
+
+        .navbar-toggler {
+        border-color: #fff;
+
+        }
+
+      }
+  
+</style>
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg pe-5">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="D:\Kodego\cawayan\images\icons\Cawayan_logo.png" height="26px" width="120px"></a>
+              <button class="navbar-toggler navbar-dark " type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav" style="align-items:center">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="D:/Kodego/cawayan/index.html#newarrival">Products</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about_us.html">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                  </li> 
+                </ul>
+                <ul class="navbar-nav" style="align-items:center">
+                  <li class="nav-item">
+                    <a class="nav-link" href="my_cart.html"><i class="fa fa-shopping-cart" style="height: 10px;"></i></a>
+                  </li>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="sign_up.html">Sign Up</a>
+                  </li> 
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="log_in.html">Log In</a>
+                  </li> 
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <section class="pt-5 pb-5">
+      <div class="container">
+        <h1 style="color: hsl(94, 75%, 22%);" class="px-3">Sign-up</h1>
+      </div>
+      <div class="container">
+        <div class="row">
+            <div class="col-6">
+        <form class="border p-5 pb-0 m-3 text-white rounded" action="D:\Kodego\cawayan\index.html" target="_blank" method="GET">
+            <fieldset>
+                <legend style="color: hsl(94, 75%, 22%); text-align: center;">Create a New Account</legend>
+                    <div class="row">
+                        <div class="col my-3">
+                            <label class="form-label" style="color: hsl(94, 75%, 22%)">Username</label>
+                            <input class="form-control w-50" type="text" name="first-name" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col my-3">
+                            <label class="form-label" style="color: hsl(94, 75%, 22%)">Email</label>
+                            <input class="form-control" type="email" name="email" required placeholder="'example@gmail.com'">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                        <label class="form-label" style="color: hsl(94, 75%, 22%)">Password</label>
+                        <input class="form-control" type="password" name="password" required>
+                        </div>
+                        <div class="col">
+                        <label class="form-label" style="color: hsl(94, 75%, 22%)"> Confirm Password</label>
+                        <input class="form-control" type="password" name="password2" required>
+                        </div>
+                    </div>
+                        <div class=" row pt-4">
+                            <div class="col my-3">
+                                <button class="btn btn-success">Sign Up</button>
+                                <div class=pt-3>
+                                <a href="log_in.html" class="text-black">Already have an account?</a>
+                              </div>
+                            </div>
+                        </div>
+            </fieldset>
+        </form>
+    </div>
+    </div>
+
+    </section>
+
+    <footer class="site-footer">
+      <div class="container">
+          <div class="row">
+
+              <div class="col">
+                  <h6>Quick Links</h6>
+                  <ul class="footer-links">
+                      <li><a href="#" target="_blank" rel="noopener">About Us</a></li>
+                      <li><a href="#" target="_blank" rel="noopener">Contact Us</a></li>
+                      <li><a href="#" target="_blank" rel="noopener">Privacy Policy</a></li>
+                      <li><a href="#" target="_blank" rel="noopener">Return Policy</a></li>
+                    </ul>
+              </div>
+
+              <div class="col">
+                  <h6>Top Categories</h6>
+                  <ul class="footer-links">
+                      <li><a href="#" target="_blank" rel="noopener">Home Decor</a></li>
+                      <li><a href="#" target="_blank" rel="noopener">Bag and Baskets</a></li>
+                      <li><a href="#" target="_blank" rel="noopener">Gift Items</a></li>
+                      <li><a href="#" target="_blank" rel="noopener">Rattan</a></li>
+                      <li><a href="#" target="_blank" rel="noopener">Bamboo</a></li>
+                    </ul>
+              </div>
+
+              <div class="col">
+                  <h6>Resources</h6>
+                  <ul class="footer-links">
+                      <li><a href="#" target="_blank" rel="noopener">Vendor</a></li>
+                      <li><a href="#" target="_blank" rel="noopener">Cart</a></li>
+                  </ul>
+              </div>
+
+              <div class="col">
+                  <h6>SUBSCRIBE TO OUR NEWS LETTER</h6>
+                  <div class="form-wrap" id="mc_embed_signup">
+                      <form target="_blank" action="" method="post" class="form-inline" style="display: flex;">
+                        <input class="form-control" name="EMAIL" placeholder="Your Email Address" required="" type="email">
+                        <button class="click-btn btn btn-default text-white" style="background-color: rgb(161, 89, 22);">Subscribe</button>
+                      </form>
+                  </div>
+                  <div class="row">
+                      <div class="col-12 text-white text-center">
+                          <p class="color-white" style="font-size: 13px;">You'll get an email about once a month. We'll never share your address.</p>
+                          <p>Have queries? Write to us at: <a style="color: white" href="mailto:info@cawayan.com" target="_top">info@cawayan.com</a> </p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <hr>
+          <div class="container">
+              <div class="row">
+                <div class="" style="text-align: center;">
+                  <p class="copyright-text">Copyright © 2022 All Rights Reserved by 
+               <a href="#">Cawayan</a>.
+                  </p>
+                </div>
+              </div>
+              <div class="row">
+                  <div class="col" style="text-align:center;">
+                      <a href="https://www.facebook.com" target="_blank"><img src="D:\Kodego\cawayan\images\icons\Facebook.png" style="height:30px; width: 30px; margin-right: 1%;"></a></li>
+                      <a href="https://www.instagram.com" target="_blank"><img src="D:\Kodego\cawayan\images\icons\Instagram.png" style="height:30px; width: 30px; margin-right: 1%;;"></a></li>
+                      <a href="https://www.tiktok.com" target="_blank"><img src="D:\Kodego\cawayan\images\icons\Tiktok.png" style="height:30px; width: 30px; margin-right: 1%;"></a></li>
+                      <a href="https://www.pinterest.com" target="_blank"><img src="D:\Kodego\cawayan\images\icons\Pinterest.png" style="height:30px; width: 30px;"></a></li>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </footer>
+</body>
+</html>
