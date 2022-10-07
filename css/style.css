@@ -1,7 +1,7 @@
 body{
     margin: 0;
     font-family:Arial, Helvetica, sans-serif;
-    background-image: url(/../Kodego/cawayan/images/home/body-background.png);
+    background-image: url(/../images/home/body-background.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -24,7 +24,7 @@ header {
 .banner {
     height: 200px;
     width: auto;
-    background-image: url(/../Kodego/cawayan/images/home/banner.png);
+    background-image: url(/../images/home/banner.png);
     background-size: cover; 
     position: fixed;
 }
