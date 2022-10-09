@@ -14,11 +14,12 @@ header {
     width: 100%;
     height: auto;
     background-color: hsl(94, 75%, 22%);
-    position: relative; 
+    position:sticky; 
     left: 0px;
     top: 0px;
     color: white;
     font-size: larger;
+    z-index: 6;
 }
 
 .banner {
